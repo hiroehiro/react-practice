@@ -11,9 +11,6 @@ export const Login: FC = memo(function Loginfunc() {
     setUserId(e.target.value);
 
   const onClicklogin = () => login(userId);
-  console.log("aaaaaaa");
-  console.log(userId === "");
-  console.log("bbbbbbb");
 
   return (
     <Flex align="center" justify="center" height="100vh">
